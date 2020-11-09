@@ -1,0 +1,129 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@500;700&display=swap");
+html,
+body {
+  margin: 0;
+  padding: 0;
+  font-family: Poppins, sans-serif;
+  font-size: 18px;
+  display: grid;
+}
+
+nav {
+  height: 60px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  box-sizing: border-box;
+  font-family: "Open Sans", sans-serif;
+  font-weight: 700;
+  font-size: larger;
+}
+nav a {
+  margin-left: 3%;
+}
+
+main {
+  width: auto;
+  height: auto;
+  display: grid;
+  justify-items: center;
+  text-align: center;
+  color: #938e9f;
+  background: #f0f1f6;
+}
+main h1, main h2, main h3 {
+  color: #3b3054;
+}
+main button {
+  width: 40%;
+  margin-bottom: auto;
+  height: 150%;
+  border-radius: 20px;
+  border: none;
+  font-weight: 700;
+  font-size: 18px;
+  color: white;
+  background-color: #2acfcf;
+}
+main form {
+  height: 100px;
+  width: 90%;
+  margin-top: 10%;
+  border-radius: 4px;
+  display: grid;
+  justify-items: center;
+  background-image: url("../assets/images/bg-shorten-mobile.svg");
+  background-color: #3b3054;
+}
+main form .input {
+  height: 1.5em;
+  width: 11.7em;
+  align-self: flex-end;
+  margin-bottom: 3%;
+  border: none;
+  border-radius: 3px;
+  font-weight: 700;
+  font-size: 18px;
+}
+main form .button {
+  height: 1.5em;
+  width: 12em;
+  border: none;
+  border-radius: 3px;
+  font-weight: 700;
+  font-size: 18px;
+  color: white;
+  background-color: #2acfcf;
+}
+main .info-card {
+  margin: 5%;
+  padding: 2%;
+  background: white;
+}
+main .info-card img {
+  background: #3b3054;
+  width: 15%;
+  padding: 7%;
+  border-radius: 50%;
+}
+main .call-to-action {
+  display: grid;
+  justify-items: center;
+  padding: 20%;
+  background-image: url("../assets/images/bg-boost-mobile.svg");
+  background-color: #35323e;
+}
+main .call-to-action h3 {
+  color: white;
+}
+main .call-to-action button {
+  width: 70%;
+  height: 150%;
+  border-radius: 20px;
+  border: none;
+  font-weight: 700;
+  font-size: 18px;
+  color: white;
+  background-color: #2acfcf;
+}
+
+footer {
+  width: auto;
+  height: auto;
+  display: grid;
+  text-align: center;
+  color: white;
+  background: #35323e;
+}
+footer ul {
+  list-style: none;
+  padding: 0;
+}
+footer figure {
+  display: flex;
+  justify-content: space-evenly;
+}
+
+header img {
+  width: 100%;
+}

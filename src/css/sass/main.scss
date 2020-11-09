@@ -1,0 +1,75 @@
+main {
+    width: auto;
+    height: auto;
+    display: grid;
+    justify-items: center;
+    text-align: center;
+    color: $grayish-violet;
+    background: #f0f1f6;
+    h1, h2, h3 {
+        color:  $prymary-two;
+    }
+    button {
+        width: 40%;
+        margin-bottom: auto;
+        @include button;
+    }
+   
+        
+    form {
+        height: 100px;
+        width: 90%;
+        margin-top: 10%;
+        border-radius: 4px;
+        display: grid;
+        justify-items: center;
+        background-image: url('../assets/images/bg-shorten-mobile.svg');
+        background-color: $prymary-two;
+        .input {
+            height: 1.5em;
+            width: 11.7em;
+            align-self: flex-end;
+            margin-bottom: 3%;
+            border: none;
+            border-radius: 3px;
+            font-weight: 700;
+            font-size: 18px;
+        }
+        .button {
+            height: 1.5em;
+            width: 12em;
+            border: none;
+            border-radius: 3px;
+            font-weight: 700;
+            font-size: 18px;
+            color: white;
+            background-color: $prymary;  
+        }
+    }
+    
+    .info-card {
+        margin: 5%;
+        padding: 2%;
+        background: white;
+        img {
+            background: $prymary-two;
+            width: 15%;
+            padding: 7%;
+            border-radius: 50%;
+        }
+    }
+    .call-to-action {
+        display: grid;
+        justify-items: center;
+        padding: 20%;
+        background-image: url("../assets/images/bg-boost-mobile.svg");
+        background-color:  $very-dark-blue;
+        h3 {
+            color: white;
+        }
+        button {
+            width: 70%;
+            @include button;
+        }
+    }
+}

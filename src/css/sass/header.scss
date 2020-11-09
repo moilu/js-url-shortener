@@ -1,0 +1,14 @@
+
+ nav {
+  height: 60px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  box-sizing: border-box;
+  font-family: 'Open Sans', sans-serif;
+  font-weight: 700;
+  font-size: larger;
+  a {
+    margin-left: 3%;
+  }
+ }
