@@ -1,0 +1,22 @@
+footer {
+    width: auto;
+    height: auto;
+    display: grid;
+    text-align: center;
+    color: white;
+    background: $very-dark-blue;
+    ul {
+        list-style: none;
+        padding: 0;
+    }
+    figure {
+        display: flex;
+        justify-content: space-evenly;
+    }
+}
+
+header {
+    img {
+        width: 100%;
+    }
+}
