@@ -4,8 +4,8 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
 
-  <link rel="icon" type="image/png" sizes="32x32" href="./assets/images/favicon-32x32.png">
-  <link href="./css/css/hamburger.css" rel="stylesheet">
+  <link rel="icon" type="image/png" sizes="32x32" href="./css/assets/images/favicon-32x32.png">
+  <link rel="stylesheet" href="./css/css/hamburger.css">
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
   <link rel="stylesheet" href="./css/css/styles.css">
 
@@ -50,11 +50,15 @@
    
     <button>Get Started</button>
 
-    <form action="#" method="post">
-      <input type="url" placeholder="Shorten a link here..." class="input">
-      <input type="submit" value="Shorten it!" class="button">
+    <form >
+      <input type="url" placeholder="Shorten a link here..." id="long_link" class="input">
+      <input type="submit" value="Shorten it!" id="submit" class="button"></input>
     </form>
-   
+
+    <ul class="links">
+      
+    </ul>
+
     <h2> Advanced Statistics</h2>
    
     <p> Track how your links are performing across the web with our 
@@ -85,7 +89,7 @@
    
        <div class="call-to-action">
          <h3>Boost your links today</h3>
-         <button>Get Started</button>
+         <a class="button">Get Started</a>
        </div>
    
   </main>
@@ -127,5 +131,6 @@
         Made with awesomness by<a href="#">Moisés Luna</a>.
       </div>
 </footer>
+<script src="./index.js"></script>
 </body>
 </html>

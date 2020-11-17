@@ -82,8 +82,7 @@ main .info-card {
 }
 main .info-card img {
   background: #3b3054;
-  width: 15%;
-  padding: 7%;
+  width: 20%;
   border-radius: 50%;
 }
 main .call-to-action {

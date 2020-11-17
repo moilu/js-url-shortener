@@ -1,6 +1,5 @@
-node_modules
-node_modules
-*.sketch
-*.xd
-*.fig
+node_modules/
+
+dist/
+
 .DS_Store
