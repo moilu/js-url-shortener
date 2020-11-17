@@ -12,25 +12,16 @@ const short  = ( long_link ) => {
              const shortLink = response.result.short_link
              return shortLink;
         })
-        // .then( shortLink => {
-        //     console.log(shortLink);
-        // })
+        .then( shortLink => {
+            console.log(shortLink);
+        })
 }
 
 document.querySelector('form').onsubmit = async () => {
 
     long_link = document.querySelector('#long_link').value;
 
-    let short_link = await fetch( 'https://api.shrtco.de/v2/shorten?url=' + long_link )
-            .then( response  => {return response.json()})
-            .then( response => {
-                const shortLink = response.result.short_link
-                return shortLink;
-            }).then( shortLink => {
-                console.log(shortLink)
-            })
-
-    console.log(short_link);
+    short( long_link );
 
     return false;
 }
